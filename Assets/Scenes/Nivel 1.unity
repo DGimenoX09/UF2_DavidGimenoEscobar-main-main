@@ -34714,7 +34714,6 @@ GameObject:
   - component: {fileID: 1371366019}
   - component: {fileID: 1371366020}
   - component: {fileID: 1371366021}
-  - component: {fileID: 1371366022}
   m_Layer: 0
   m_Name: Mario_0
   m_TagString: Player
@@ -34992,7 +34991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rBody: {fileID: 0}
-  sensor: {fileID: 0}
+  sensor: {fileID: 404900753}
   render: {fileID: 0}
   anim: {fileID: 0}
   newPosition: {x: 50, y: 5, z: 0}
@@ -35014,27 +35013,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
   anim: {fileID: 0}
---- !u!114 &1371366022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371366012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db2d44a5f1dbba649ad2dc6a407c1c6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rBody: {fileID: 0}
-  sensor: {fileID: 0}
-  render: {fileID: 0}
-  anim: {fileID: 0}
-  newPosition: {x: 50, y: 5, z: 0}
-  movementSpeed: 5
-  jumpForce: 10
-  jump: 0
-  jumpSound: {fileID: 0}
 --- !u!1 &1374679001
 GameObject:
   m_ObjectHideFlags: 0
